@@ -1,0 +1,58 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="3">
+            <item index="0" class="java.lang.String" itemvalue="pygame" />
+            <item index="1" class="java.lang.String" itemvalue="pi" />
+            <item index="2" class="java.lang.String" itemvalue="Django" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E305" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="id" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="admin_panel.models.EducationalLevel.objects" />
+          <option value="admin_panel.models.Teacher.objects" />
+          <option value="admin_panel.models.Semester.objects" />
+          <option value="admin_panel.models.Class.objects" />
+          <option value="admin_panel.models.StudentSemester.objects" />
+          <option value="admin_panel.models.Student.objects" />
+          <option value="admin_panel.models.Semester.DoesNotExist" />
+          <option value="admin_panel.models.Session.objects" />
+          <option value="admin_panel.models.Currency.objects" />
+          <option value="admin_panel.models.SemesterDaysHours.objects" />
+          <option value="admin_panel.models.SemesterPrice.objects" />
+          <option value="admin_panel.models.Country.objects" />
+          <option value="admin_panel.models.StudentPhysicalIssue.objects" />
+          <option value="admin_panel.models.Student4Skills.objects" />
+          <option value="admin_panel.models.StudentSession.objects" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
